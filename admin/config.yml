@@ -1,0 +1,133 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "site_content"
+    label: "Site Content"
+    files:
+      - name: "content"
+        label: "All Site Content"
+        file: "_data/content.yml"
+        fields:
+          # ---- HERO ----
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Top Badge", name: "badge", widget: "string" }
+              - { label: "Main Headline", name: "headline", widget: "string" }
+              - { label: "Subheadline", name: "subheadline", widget: "text" }
+              - { label: "Offer (main text)", name: "offer_main", widget: "string" }
+              - { label: "Offer (detail)", name: "offer_detail", widget: "string" }
+              - { label: "Offer (small note)", name: "offer_note", widget: "string" }
+
+          # ---- SESSIONS ----
+          - label: "Sessions"
+            name: "sessions"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Icon", name: "icon", widget: "select", options: ["reformer", "yoga", "meditation"] }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Detail line", name: "detail", widget: "string" }
+
+          # ---- EXPERIENCE ----
+          - label: "What Clients Experience"
+            name: "experience"
+            widget: "list"
+            fields:
+              - { label: "Bold headline", name: "bold", widget: "string" }
+              - { label: "Description", name: "text", widget: "text" }
+
+          # ---- TESTIMONIALS ----
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Detail", name: "detail", widget: "string" }
+
+          # ---- TESTIMONIAL VIDEO ----
+          - label: "Testimonial Video"
+            name: "testimonial_video"
+            widget: "object"
+            fields:
+              - { label: "Show video?", name: "enabled", widget: "boolean", default: true }
+              - { label: "YouTube Embed URL", name: "video_url", widget: "string", hint: "e.g. https://www.youtube.com/embed/XXXXX" }
+              - { label: "Caption", name: "caption", widget: "string" }
+
+          # ---- ABOUT ----
+          - label: "About Jonathan"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Intro paragraph", name: "intro", widget: "text" }
+              - { label: "Body (additional paragraphs)", name: "body", widget: "text" }
+              - { label: "Fireflow History", name: "fireflow_history", widget: "text" }
+              - { label: "Your Photo", name: "photo", widget: "image" }
+              - label: "Stats"
+                name: "stats"
+                widget: "object"
+                fields:
+                  - { label: "Years Teaching", name: "years_teaching", widget: "number" }
+                  - { label: "Years Practice", name: "years_practice", widget: "number" }
+                  - { label: "Students through Fireflow", name: "students", widget: "string" }
+
+          # ---- FILM ----
+          - label: "Documentary Film"
+            name: "film"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Trailer Embed URL", name: "video_url", widget: "string", hint: "e.g. https://www.youtube.com/embed/XXXXX" }
+              - label: "Festival Selections"
+                name: "festivals"
+                widget: "list"
+                field: { label: "Festival Name", name: "festival", widget: "string" }
+              - { label: "Film Website URL", name: "link_url", widget: "string", required: false }
+              - { label: "Film Website Link Text", name: "link_text", widget: "string", required: false }
+
+          # ---- AUNT LOLITTA ----
+          - label: "Aunt Lolitta Video Section"
+            name: "lolitta"
+            widget: "object"
+            fields:
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "YouTube Embed URL", name: "video_url", widget: "string", hint: "e.g. https://www.youtube.com/embed/XXXXX" }
+              - { label: "Caption", name: "caption", widget: "text" }
+
+          # ---- STUDIO PHOTOS ----
+          - label: "Studio Photos"
+            name: "studio_photos"
+            widget: "list"
+            fields:
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Alt Text (for accessibility)", name: "alt", widget: "string" }
+
+          # ---- CONTACT ----
+          - label: "Contact Info"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Intro text", name: "intro", widget: "text" }
+              - { label: "Address", name: "address", widget: "string" }
+              - { label: "Neighbourhood", name: "neighbourhood", widget: "string" }
+              - { label: "WhatsApp Link", name: "whatsapp_url", widget: "string", hint: "e.g. https://wa.me/14168396621" }
+              - { label: "Instagram URL", name: "instagram", widget: "string" }
+              - { label: "Instagram Handle", name: "instagram_handle", widget: "string" }
+
+          # ---- BOOKING CTA ----
+          - label: "Booking Section"
+            name: "booking"
+            widget: "object"
+            fields:
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - { label: "Location line", name: "location", widget: "string" }
+              - { label: "Booking URL", name: "booking_url", widget: "string", hint: "Scheduling link (Calendly, Acuity) or mailto link" }

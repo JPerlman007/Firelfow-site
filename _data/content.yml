@@ -1,0 +1,95 @@
+hero:
+  badge: "Seaton Village, Annex"
+  headline: "Personal Yoga Training & Reformer Pilates That Works"
+  subheadline: "The mobility, balance, and recovery work your other training doesn't cover. Private and semi-private sessions for individuals and couples in Seaton Village."
+  offer_main: "Intro package · 4 sessions · $40/session"
+  offer_detail: "New client special — $160 for your first month"
+  offer_note: "No commitment after · Yoga, Reformer, or both"
+
+sessions:
+  - title: "Private Reformer Pilates"
+    icon: "reformer"
+    description: "Spring resistance meets precise instruction. Target deep core and stabilizing muscles your other training misses. Low-impact, surprisingly challenging, and genuinely fun."
+    detail: "45 min · Private sessions"
+  - title: "Personal Yoga Training"
+    icon: "yoga"
+    description: "The perfect complement to strength training, running, or any sport. Every pose set up so you feel exactly how it works — building mobility, balance, and body awareness from the inside out. Couples train together but get individual attention. Different bodies, different needs, same session."
+    detail: "60 min · Couples & semi-privates welcome"
+  - title: "Yoga + Meditation"
+    icon: "meditation"
+    description: "Movement followed by guided stillness. A session that strengthens your body and quiets your mind — grounded in the body, quiet in the mind."
+    detail: "75 min · Drawing on nearly a decade of retreat practice"
+
+experience:
+  - bold: "You'll feel muscles you've never felt."
+    text: "Slow, precise work means every pose actually lands. Most people are surprised by how much they feel from movements that look simple. If triangle pose feels too easy, likely you're not sure how to fully engage more of your core. It's not that difficult but it's not intuitive."
+  - bold: "You'll leave energized and relaxed at the same time."
+    text: "That specific combination — strong but calm, worked but not wrecked — keeps people coming back."
+  - bold: "It's built around your body."
+    text: "Chronic back pain, stiff hips, post-surgery rehab, or just feeling disconnected. Every session adapts to where you are today."
+  - bold: "Couples get individual attention — together."
+    text: "Partners often have completely different needs. One might be working on a stiff lower back, the other on hip mobility. You share the session but the instruction is tailored to each of you."
+  - bold: "The missing piece in your fitness routine."
+    text: "If you already work with a trainer, run, cycle, or play tennis, this is the mobility, balance, and recovery work that keeps you moving safely and performing better."
+  - bold: "No judgment, no performance."
+    text: "It's just you (or you and a partner) in a quiet garden studio or in your home. The pace is yours."
+
+testimonials:
+  - quote: "It was a unique combination of uplifting and relaxing exercises, with unexpectedly challenging ones. Jonathan gently guided me through the workout. He expertly adapts based on your goals and needs, taking into consideration any limiting health issues. The studio has a cosy and warm atmosphere."
+    name: "Monica"
+    detail: "Reformer client"
+  - quote: "We look forward to our weekly sessions. After each session we are always grateful for how we feel. Jonathan is a dedicated and knowledgeable teacher, full of passion and dedication."
+    name: "Private yoga clients"
+    detail: "Couple"
+
+testimonial_video:
+  enabled: true
+  video_url: "https://www.youtube.com/embed/YOUR_TESTIMONIAL_VIDEO_ID"
+  caption: "Monica shares her experience with Reformer Pilates at Fireflow"
+
+about:
+  intro: "I've been practicing yoga for nearly 30 years and teaching for almost two decades. Yoga changed my life in my 30s — not because I was naturally flexible or athletic (I wasn't), but because I discovered how much it could transform both my body and my mind. Through steady practice, I became stronger, more mobile, more focused — and more myself."
+  body: "Now in my 50s, yoga and movement are what keep me active, stable, and energized. I love teaching more than ever. It brings me real joy to see how mindful movement helps people feel better — stronger, lighter, and more alive in their bodies.\n\nI've had the privilege to study with some of the world's most respected yoga teachers and have been deeply shaped by my years of regular meditation practice. You'll feel that in my sessions — whether we're working on strength, flexibility, breath, or simply finding more ease."
+  fireflow_history: "Fireflow Yoga first opened in midtown Toronto in 2007. For nine years, it operated as a full-time studio, welcoming over 8,000 students from across the city. We hosted some of the most influential teachers in the yoga world — offering workshops and trainings with teachers like Matthew Sweeney and Darby.\n\nToday, Fireflow continues in a new form: a peaceful garden studio in downtown Toronto, offering private movement sessions for individuals and small groups. Whether you're brand new to movement or returning to it with fresh intentions, Fireflow is a place to reconnect with your body, your breath, and yourself."
+  photo: "/images/jonathan.jpg"
+  stats:
+    years_teaching: 20
+    years_practice: 30
+    students: "8,000+"
+
+film:
+  title: "Sit. Walk. Listen. Repeat."
+  description: "Jonathan spent seven years making a documentary about what happens when you sit in silence for seven days. The film follows a group of meditators through a silent retreat — the restlessness, the racing thoughts, and then, around day four, something nobody expected."
+  video_url: "https://www.youtube.com/embed/YOUR_FILM_TRAILER_ID"
+  festivals:
+    - "Spirit Film Festival, Tel Aviv"
+    - "Miami Jewish Film Festival"
+  link_url: "https://whenthemindsettles.netlify.app"
+  link_text: "Learn more about the film"
+
+lolitta:
+  description: "More than a decade ago, I made this short film about my Aunt Lolitta doing yoga at 95. It went viral — because it shows a simple, profound truth: movement is what keeps us alive."
+  video_url: "https://www.youtube.com/embed/YOUR_LOLITTA_VIDEO_ID"
+  caption: "Her practice wasn't fancy, but it was real — she moved with clarity, breath, and grace. This is what yoga is for."
+
+studio_photos:
+  - image: "/images/studio-1.jpg"
+    alt: "Fireflow garden studio entrance with greenery"
+  - image: "/images/studio-2.jpg"
+    alt: "Reformer Pilates machine in sunlit studio"
+  - image: "/images/studio-3.jpg"
+    alt: "Yoga mat and natural light in garden studio"
+
+contact:
+  intro: "Whether you're curious about private sessions, want to try the Reformer, or just have questions — reach out. No pressure, no hard sell. Just a conversation about what might work for you."
+  address: "71 Essex Street, Toronto"
+  neighbourhood: "Seaton Village / Annex / Christie Pits"
+  whatsapp_url: "https://wa.me/14168396621"
+  instagram: "https://www.instagram.com/fireflowyogi/"
+  instagram_handle: "@fireflowyogi"
+
+booking:
+  headline: "Ready to feel the difference?"
+  description: "Intro package · 4 sessions at $40/session · Yoga, Reformer, or Yoga + Meditation"
+  location: "71 Essex Street, Seaton Village · Near Bloor & Christie"
+  booking_url: "mailto:fireflowyoga1@gmail.com?subject=Intro%20Session%20Booking"

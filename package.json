@@ -1,0 +1,12 @@
+{
+  "name": "fireflow-yoga",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js && echo 'Built! Open _site/index.html'"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
